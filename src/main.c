@@ -1,6 +1,10 @@
 #include "../includes/snake.h"
 
+#ifdef _WIN32
+#include <ncurses/curses.h>
+#else 
 #include <curses.h>
+#endif 
 #include <stdbool.h>
  
 int main(void)

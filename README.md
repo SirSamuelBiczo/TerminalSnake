@@ -4,3 +4,4 @@ Jeux du serpent dans le terminal, pour vous diriger utilisez simplement les flé
 
 # Screenshot 
 
+![Image du jeux](http://image.noelshack.com/fichiers/2021/26/6/1625348678-screenshot-5.png)

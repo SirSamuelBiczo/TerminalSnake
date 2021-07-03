@@ -6,7 +6,11 @@
 #include <errno.h>
 #include <string.h>
 #include <time.h>
+#ifdef _WIN32
+#include <ncurses/curses.h>
+#else 
 #include <curses.h>
+#endif 
 #include <unistd.h>
 
 Snake* SNAKE_Initialize(const char representation)
